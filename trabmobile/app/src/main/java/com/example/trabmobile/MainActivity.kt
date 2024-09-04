@@ -127,7 +127,7 @@ fun SimpleJourneyApp() {
                     },
                     dismissButton = {
                         TextButton(onClick = {
-                            currentImage = R.drawable.giveup
+                            currentImage = R.drawable.inicial
                             fimJogo = true
                             vitoria = false
                             showDesistirDialog = false // Fecha o diálogo
@@ -143,7 +143,7 @@ fun SimpleJourneyApp() {
                 fontSize = 20.sp)
             Spacer(modifier = Modifier.height(16.dp))
             Image(
-                painter = painterResource(id = if (vitoria) R.drawable.fim else R.drawable.inicial),
+                painter = painterResource(id = if (vitoria) R.drawable.fim else R.drawable.giveup),
                 contentDescription = null,
                 modifier = Modifier.size(300.dp)
             )
