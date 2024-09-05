@@ -48,7 +48,7 @@ A função `Jogar` é responsável por toda a lógica e layout do jogo.
 - **Diálogo:**
   - Um `AlertDialog` é exibido quando o usuário desiste ou finaliza o jogo, permitindo que ele reinicie o jogo ou encerre a sessão.
 
-```
+
 
 
 ## Como Executar
