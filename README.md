@@ -1,60 +1,27 @@
-# Atividades-Entrega-Desenv-AplMoveis
+# A Jornada da Conquista
 
-Esta área é destinada à entrega de atividades participativas ou avaliativas.
+Um jogo simples em Kotlin com Jetpack Compose que simula a jornada em direção a uma conquista pessoal. O jogador avança clicando na imagem, que muda conforme o progresso, até atingir a conquista final.
 
-Passos Iniciais: Faça um fork do repositório e crie uma branch com o seu nome seguido de um "-" concatenado com a identificação da atividade.
-Entrega: Adicione seus arquivos na pasta Atividades do seu fork e envie um pull request com suas alterações para o repositório principal.
+## Funcionalidades
 
+- **Jornada Visual**: O jogador vê imagens que mudam de acordo com seu progresso.
+- **Animações**: Efeitos de escala, rotação e transparência ao clicar.
+- **Desistência**: O jogador pode desistir a qualquer momento, e uma imagem de desistência será exibida.
+- **Número Aleatório de Cliques**: A cada rodada, o número de cliques necessários para vencer é gerado aleatoriamente (entre 1 e 50).
 
-# Instruções:
+## Tecnologias Utilizadas
 
-Fork do Repositório:
+- **Kotlin**
+- **Jetpack Compose**
+- **Android Studio**
 
-- Acesse o repositório Atividades-Entrega-Desenv-AplMoveis.
-- Clique no botão "Fork" no canto superior direito.
-  - Isso fará com que o repositório seja copiado para sua conta GitHub.
+## Como Executar o Projeto
 
-Clone o Repositório Forkado:
+1. **Clone o repositório**:
 
-- Clone o repositório forkado para o seu ambiente local, substituindo "seu-usuario" pelo seu nome de usuário do GitHub:
-- Exemplo:
-   git clone https://github.com/seu-usuario/Desenvolvimento_Aplicativos_Moveis.git
+   ```bash
+   git clone https://github.com/gabriel-laurino/Atividades-Entrega-Desenv-AplMoveis.git
+   
+2. **Execute**:
 
-- Navegue até o diretório do repositório clonado, exemplo:
-  cd Atividades-Entrega-Desenv-AplMoveis
-
-Adicionar Trabalho:
-
-- Navegue até a pasta Atividades-Entrega-Desenv-AplMoveis no diretório do repositório clonado.
-- Adicione seus arquivos de trabalho na pasta Atividades.
-
-Commit e Push:
-
-- Adicione os arquivos ao estágio de commit, exemplo:
-  git add .
-- Faça um commit das suas alterações com uma mensagem descritiva, exemplo:
-  git commit -m "Adicionando trabalho de [Seu Nome]"
-- Envie suas alterações para o repositório forkado no GitHub:
-  git push origin main
-
-Abrir um Pull Request:
-
-- Acesse o repositório forkado no GitHub.
-- Navegue até a aba "Pull requests".
-- Clique no botão "New pull request".
-- Certifique-se de que a base do pull request está configurada para o repositório original e a branch main do seu fork.
-- Preencha o título e a descrição do pull request e clique em "Create pull request".
-
-# Dicas Adicionais
-
-- Verifique se a Branch está Atualizada:
-  Antes de fazer o commit, é uma boa prática garantir que seu repositório forkado esteja atualizado com as últimas alterações do repositório original. Você pode fazer isso com os seguintes comandos:
-  
-  git fetch upstream
-  git merge upstream/main
-
-- Utilize Branches para Novas Funcionalidades: Se estiver trabalhando em várias tarefas, considere criar branches diferentes para cada uma delas. Por exemplo:
-
-  git checkout -b nome-da-sua-branch
-
-- Mensagens de Commit: Seja claro e descritivo nas suas mensagens de commit para facilitar a revisão do seu trabalho.
+Abra o projeto clonado no seu Android Studio e rode o arquivo MainActivity.kt.
